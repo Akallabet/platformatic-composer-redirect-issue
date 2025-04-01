@@ -1,4 +1,3 @@
-import { SignIn } from "@/lib/auth/components/signin";
 import { redirect } from "next/navigation";
 
 const signIn = async () => {

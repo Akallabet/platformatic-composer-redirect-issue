@@ -1,0 +1,19 @@
+{
+  "name": "platformatic-composer-redirect-issue",
+  "private": true,
+  "scripts": {
+    "dev": "wattpm dev",
+    "transpile": "npx platformatic compile",
+    "build": "wattpm build",
+    "start": "wattpm start"
+  },
+  "dependencies": {
+    "@platformatic/composer": "^2.53.1",
+    "@platformatic/runtime": "^2.53.1",
+    "wattpm": "^2.53.1"
+  },
+  "workspaces": [
+    "web/*",
+    "external/*"
+  ]
+}

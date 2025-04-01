@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.platformatic.dev/wattpm/2.53.1.json",
+  "server": {
+    "hostname": "{PLT_SERVER_HOSTNAME}",
+    "port": "{PORT}"
+  },
+  "logger": {
+    "level": "info"
+  },
+  "autoload": {
+    "path": "web"
+  },
+  "basePath": "{PLT_BASE_PATH}",
+  "metrics": {
+    "port": 9091
+  }
+}
